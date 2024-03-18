@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+.Footer {
+    background-color: #080808; /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+    height: 120vh; /* Set height to 100vh */
+}
+
+.topFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 70%;
+    position: relative; /* Add position relative for positioning pseudo-element */
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://cdn1.epicgames.com/ue/item/LowPolyStylizedEnvironment_Screenshot_1-1920x1080-8df4e79cb034ee271f254f8959518966.png'); /* Replace 'path_to_your_image.jpg' with your image path */
+    background-size: cover; /* Ensure the image covers the entire element */
+    background-position: center; /* Center the background image */
+    opacity: 0.5; /* Adjust opacity as needed */
+    z-index: 1; /* Ensure the pseudo-element is behind the content */
+    filter: brightness(0.5);
+}
+
+/* Adjust text color and other styles as needed */
+
+
+.topFooterContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 2;/* Adjust max-width as needed */
+}
+
+.textContent {
+    max-width: 650px; /* Adjust max-width as needed */
+}
+.textContent h1{
+    font-family: 'Rubik', sans-serif; 
+    font-size: 42px;
+    font-weight: bolder;
+}
+.textContent p{
+    font-family:'Space Mono', monospace;
+}
+.logos p{
+    font-family:'Space Mono', monospace;
+}
+.text-Youtube{
+   display: flex;
+   gap: 200px;
+}
+.YoutubeContent {
+    max-width: 200px; /* Adjust max-width as needed */
+}
+
+.bottomFooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+}
+.bottomFooter h1{
+    font-family: 'Rubik', sans-serif; 
+}
+.bottomFooter p{
+    font-family:'Space Mono', monospace;
+}
+
+.bottomFooter-navs {
+    display: flex;
+    gap: 50px;
+}
+.logos{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+/* Styling for icons */
+/* Replace "icon" with your actual icon class names */
+.icon {
+    color: #fff; /* Adjust icon color as needed */
+    font-size: 24px; /* Adjust icon size as needed */
+    margin-right: 40px;
+}
+
+/* Additional styles for links or icons */
+/* Replace "link" with your actual class name */
+.link {
+    color: #fff; /* Adjust link color as needed */
+    text-decoration: none; /* Adjust text-decoration as needed */
+}
