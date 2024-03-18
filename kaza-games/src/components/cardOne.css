@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+.cardOneContainer{
+    width: 400px;
+    height: 550px;
+}
+.cardOneContainer img {
+    width: 450px;
+    border: 1px solid white;
+    transition: filter 0.3s ease; 
+  }
+  
+  .cardOneContainer img:hover {
+    filter: brightness(50%);
+    cursor:pointer
+  }
+  .cardOneContainer h1,p{
+    color: aliceblue;
+  }
+  .cardOneContainer .title{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .cardOneContainer .title p{
+    font-size: 23px;
+    transform: rotate(-90deg);
+    font-family: 'Space Mono', monospace;
+  }

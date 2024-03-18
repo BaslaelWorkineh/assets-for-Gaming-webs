@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.slider-container{
+   
+    margin: 50px;
+}
+
+.slider-container h2{
+    color: white;
+}
+.slider-container img{
+    padding: 10px;
+    height: 420px;
+    border: 1px solid white;
+    z-index: 10;
+}
+.titlesContainer{
+    width: 30vw;
+}
+.titlesContainer .tag{
+    transform: rotate(-90deg);
+    font-family:'Space Mono', monospace;
+    margin-left: 70px;
+    margin-top: -40px;
+}
+.mainTitle{
+    margin-left: -90px;
+}
+.mainTitle p{
+    font-family: 'Space Mono', monospace;;
+}
+.mainTitle h2{
+    font-family: 'Rubik', sans-serif; 
+    font-size: 33px;
+}
